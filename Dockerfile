@@ -26,6 +26,3 @@ RUN mkdir build && cd build && cmake .. -G Ninja && ninja
 
 # Command to run your application
 CMD ["./build/ocv_microservice_crow", "-timeout", "125"]
-
-
-# docker run quarks -p 3000:18080 -v ./db:/quarks/build/quarks_db 
